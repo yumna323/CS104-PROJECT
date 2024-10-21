@@ -1,0 +1,18 @@
+
+nav{
+    background-color: brown;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 100px;
+    color: white;
+}
