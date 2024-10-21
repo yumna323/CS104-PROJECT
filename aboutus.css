@@ -1,17 +1,8 @@
-
-.buttons {
-    background-color: cornflowerblue;
-    color: blue;
-    border: none;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-
 nav{
     background-color: brown;
     height: 50px;
 }
+
 nav ul{
     list-style: none;
 }
