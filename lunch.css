@@ -17,3 +17,37 @@ nav ul li a{
     margin-right: 200px;
     color: white;
 }
+#box1{
+    background-color: chocolate;
+    text-align: center;
+    height: 100px;
+}
+
+.falafil{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+#fal{
+    margin-left: 600px;
+}
+
+.koshari{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+#kosh{
+    margin-left: 600px;
+}
+
+.kibdah{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+#kib{
+    margin-left: 600px;
+}
