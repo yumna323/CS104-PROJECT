@@ -17,3 +17,19 @@ nav ul li a{
     margin-right: 200px;
     color: white;
 }
+
+.founders {
+    display: inline-block;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.about {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: beige;
+}
