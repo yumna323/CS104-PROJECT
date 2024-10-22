@@ -17,3 +17,13 @@ nav ul li a{
     margin-right: 200px;
     color: white;
 }
+#box1{
+    background-color: chocolate;
+    text-align: center;
+    height: 100px;
+}
+
+image{
+    height: 50px;
+    width: 100px;
+}
