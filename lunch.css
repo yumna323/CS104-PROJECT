@@ -23,7 +23,31 @@ nav ul li a{
     height: 100px;
 }
 
-image{
-    height: 50px;
-    width: 100px;
+.falafil{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+#fal{
+    margin-left: 600px;
+}
+
+.koshari{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+#kosh{
+    margin-left: 600px;
+}
+
+.kibdah{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+#kib{
+    margin-left: 600px;
 }
