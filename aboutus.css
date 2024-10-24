@@ -33,3 +33,15 @@ nav ul li a{
 body {
     background-color: beige;
 }
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url('https://post.healthline.com/wp-content/uploads/2020/09/healthy-eating-ingredients-732x549-thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 40%;
+     opacity: 0.9;
+    color: white;
+    text-shadow: -1.5px 0 gray, 0 1.5px gray, 1.5px 0 black, 0 -1.5px gray;
+}
