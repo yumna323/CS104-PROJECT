@@ -21,6 +21,8 @@ nav ul li a{
     background-color: chocolate;
     text-align: center;
     height: 100px;
+    position: sticky;
+    top: 0px;
 }
 
 .falafil{
