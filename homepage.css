@@ -1,68 +1,94 @@
-nav{
-    background-color: brown;
-    height: 50px;
-}
-nav ul{
-    list-style: none;
-}
-
-nav ul li{
-    display: inline-block;
-}
-
-nav ul li a{
-    text-decoration: none;
-    text-align: center;
-    margin-right: 200px;
-    color: white;
-}
-
-.name { 
-    display: inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
-
-}
-
-img {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    align-content: end;
-}
-
-h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-body {
-    background-color: beige;
-}
-
-.dish{
-    display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.firstdish {
-    display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.seconddish {
-    display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.header {
+body { font-family: Arial, sans-serif; background-color: #f5f5f5; } 
+.header { 
+    display: flex; 
+    align-items: center;  
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
     padding: 80px;
     text-align: center;
     background-image: url('https://post.healthline.com/wp-content/uploads/2020/09/healthy-eating-ingredients-732x549-thumbnail.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 40%;
-     opacity: 0.9;
+    opacity: 0.9;
     color: white;
     text-shadow: -1.5px 0 gray, 0 1.5px gray, 1.5px 0 black, 0 -1.5px gray;
+} 
+
+.header h1 { 
+    margin: 0; 
+    font-size: 36px; 
+    color: #333;
+ } 
+
+.search-bar { 
+    margin-left: 20px; 
+    flex-grow: 1; 
+    display: flex; 
+    align-items: center; 
+} 
+
+.search-bar input[type="text"] { 
+    width: 100%; 
+    padding: 8px; 
+    font-size: 16px; 
+    border-radius: 20px; 
+    border: 1px solid #ccc; 
+} 
+
+
+.login { 
+    margin-left: 20px; 
+    font-size: 16px; 
+    color: #333; 
+} 
+
+.navbar { 
+    display: flex; 
+    justify-content: center; 
+    padding: 10px; 
+    background-color: #333; 
+    overflow: hidden;
+    
+} 
+
+.navbar a { 
+    margin: 0 15px; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+} 
+
+.content { 
+    display: flex; 
+    justify-content: center; 
+    padding: 20px; 
+} 
+
+.featured { 
+    text-align: center; 
+    margin-right: 50px; 
+} 
+
+.featured img { 
+    width: 300px; 
+    border-radius: 8px; 
+} 
+
+.featured h2 { 
+    margin-top: 10px; 
+    font-size: 20px; 
+} 
+
+.trending { 
+    text-align: center; 
+} 
+
+.trending h2 { 
+    font-size: 20px; 
+} 
+
+.trending img { 
+    width: 150px; 
+    border-radius: 8px; 
+    margin: 10px; 
 }
