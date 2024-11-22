@@ -1,3 +1,8 @@
+body {
+    font-family: Arial,Garamond, serif;
+    margin: 0;
+}
+
 nav{
     background-color: brown;
     height: 50px;
@@ -30,10 +35,6 @@ nav ul li a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
-    background-color: beige;
-}
-
 .header {
     padding: 80px;
     text-align: center;
@@ -44,4 +45,27 @@ body {
      opacity: 0.9;
     color: white;
     text-shadow: -1.5px 0 gray, 0 1.5px gray, 1.5px 0 black, 0 -1.5px gray;
+    
 }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 80px;
+   
+  
+  }
+  
+  .navbar { 
+    display: flex; 
+    justify-content: center; 
+    padding: 10px; 
+    background-color: #333; 
+    
+} 
+
+.navbar a { 
+    margin: 0 15px; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+} 

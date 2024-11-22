@@ -7,21 +7,18 @@
         <link rel="stylesheet" href="homepage.css">
     </head> 
         <body> 
-            <div class="header"> 
-                <h1>Halal Hub</h1> 
-                <div class="search-bar"> 
-                    <input type="text" placeholder="Find a Recipe"> 
-                </div> 
-                <div class="login"> 
-                    <a href="#">Login</a> 
-                </div> 
-            </div> 
+            <div class="header">
+                <h1>Halal Hub</h1>
+                <p1>Cook what you have.</p1>
+              </div>
+              
             <div class="navbar"> 
                 <li><a href="Homepage.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="breakfast.html">Breakfast</a></li> 
                 <li><a href="lunch.html">Lunch</a></li>
                 <li><a href="dinner.html">Dinner</a></li>
+                <input type="text" placeholder="Find a Recipe">
             </div> 
             <div class="content"> 
                 <div class="featured"> 
@@ -40,48 +37,6 @@
                     </div> 
                 </div> 
             </div>
-            
-            <section id="feedback-form">
-
-                <h2>Give us your feedback!</h2>
-              
-                <form action="submit_feedback.php" method="post">
-              
-                  <label for="name">Your Name:</label>
-              
-                  <input type="text" id="name" name="name" required><br><br>
-              
-              
-              
-                  <label for="email">Email (Optional):</label>
-              
-                  <input type="email" id="email" name="email"><br><br>
-              
-              
-              
-                  <label for="rating">How did you like this tutorial?</label><br>
-              
-                  <input type="radio" id="rating-excellent" name="rating" value="excellent" required> Excellent<br>
-              
-                  <input type="radio" id="rating-good" name="rating" value="good"> Good<br>
-              
-                  <input type="radio" id="rating-average" name="rating" value="average"> Average<br>
-              
-                  <input type="radio" id="rating-poor" name="rating" value="poor"> Poor<br><br>
-              
-              
-              
-                  <label for="comment">Comments:</label><br>
-              
-                  <textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
-              
-              
-              
-                  <input type="submit" value="Submit Feedback">
-              
-                </form>
-              
-              </section>
               
         </body> 
 </html>

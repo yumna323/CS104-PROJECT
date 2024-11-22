@@ -1,57 +1,6 @@
-nav{
-    background-color: brown;
-    height: 50px;
-}
-
-nav ul{
-    list-style: none;
-}
-
-nav ul li{
-    display: inline-block;
-}
-
-nav ul li a{
-    text-decoration: none;
-    text-align: center;
-    margin-right: 200px;
-    color: white;
-}
-#box1{
-    background-color: chocolate;
-    text-align: center;
-    height: 100px;
-    position: sticky;
-    top: 0px;
-}
-
-.falafil{
-    background-color: brown;
-    text-align: center;
-    color: white;
-}
-#fal{
-    margin-left: 600px;
-}
-
-.koshari{
-    background-color: brown;
-    text-align: center;
-    color: white;
-}
-
-#kosh{
-    margin-left: 600px;
-}
-
-.kibdah{
-    background-color: brown;
-    text-align: center;
-    color: white;
-}
-
-#kib{
-    margin-left: 600px;
+body {
+    font-family: Arial,Garamond, serif;
+    margin: 0;
 }
 
 .header {
@@ -64,4 +13,53 @@ nav ul li a{
      opacity: 0.9;
     color: white;
     text-shadow: -1.5px 0 gray, 0 1.5px gray, 1.5px 0 black, 0 -1.5px gray;
+    
 }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 80px;
+   
+  
+  }
+
+.falafil{
+    text-align: center;
+    color: white;
+}
+#fal{
+    margin-left: 600px;
+}
+
+.koshari{
+    text-align: center;
+    color: white;
+}
+
+#kosh{
+    margin-left: 600px;
+}
+
+.kibdah{
+    text-align: center;
+    color: white;
+}
+
+#kib{
+    margin-left: 600px;
+}
+
+.navbar { 
+    display: flex; 
+    justify-content: center; 
+    padding: 10px; 
+    background-color: #333; 
+    
+} 
+
+.navbar a { 
+    margin: 0 15px; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+} 
