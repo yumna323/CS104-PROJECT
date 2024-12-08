@@ -19,80 +19,8 @@ body {
   /* Increase the font size of the heading */
   .header h1 {
     font-size: 80px;
-   
-  
   }
 
-.falafil{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-#fal{
-    margin-left: 600px;
-}
-
-.koshari{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#kosh{
-    margin-left: 600px;
-}
-
-.kibdah{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#kib{
-    margin-left: 600px;
-}
-
-.Bamya{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#Bam{
-    margin-left: 600px;
-}
-
-.Maghmour{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#mag{
-    margin-left: 600px;
-}
-
-.Muhammara{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#muh{
-    margin-left: 600px;
-}
-
-.Zaalouk{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#za{
-    margin-left: 600px;
-}
-
-.Tabouleh{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#ta{
-    margin-left: 600px;
-}
 
 .navbar { 
     display: flex; 
