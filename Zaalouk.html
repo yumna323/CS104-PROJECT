@@ -50,11 +50,38 @@ Directions:
 <li>Add all the other ingredients with a little water and simmer for 40 minutes.</li>
 <li>Mash the Zaalouk with a fork to get that creamy, rustic texture then take it off the heat.</li>
 <li>Add the lemon juice and you're done!</li>
+<br><br>
 
 
+<section id="feedback-rating">
 
+    <h2>Give us your feedback on the dish</h2>
+  
+    <form action="submit_feedback.php" method="post">
 
-
-
+      <label for="rating">Rate the recipe!</label><br>
+  
+      <input type="radio" id="rating-excellent" name="rating" value="excellent" required> Excellent<br>
+  
+      <input type="radio" id="rating-good" name="rating" value="good"> Good<br>
+  
+      <input type="radio" id="rating-average" name="rating" value="average"> Average<br>
+  
+      <input type="radio" id="rating-poor" name="rating" value="poor"> Poor<br><br>
+  
+  
+  
+      <label for="comment">Anything else you would like us to know?</label><br>
+  
+      <textarea id="comment" name="comment" rows="10" cols="40"></textarea><br><br>
+  
+  
+  
+      <input type="submit" value="Submit Feedback">
+  
+    </form>
+  
+  </section>
+</p>
 </body>
 </html>
