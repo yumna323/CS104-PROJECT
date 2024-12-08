@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balaleet</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Halal Hub</h1>
+        <p1>Cook what you have.</p1>
+      </div>
+      
+    <div class="navbar"> 
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="breakfast.html">Breakfast</a></li> 
+        <li><a href="lunch.html">Lunch</a></li>
+        <li><a href="dinner.html">Dinner</a></li>
+        <input type="text" placeholder="Find a Recipe">
+    </div> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qa1CFQSy_2A?si=vM2XNIUrI8C-xT4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <p><b>Ingredients:</b><br><br>
+        <i>For the Vermicelli:</i><br>
+        200g vermicelli noodles<br>
+        2 tablespoons butter or ghee<br>
+        ¼ cup sugar (adjust to taste)<br>
+        ½ teaspoon ground cardamom<br>
+        A pinch of saffron threads soaked in 2 tablespoons warm water<br>
+        1 cup water<br><br>
+        <i>For the Egg Topping:</i><br>
+        3 large eggs<br>
+        1 tablespoon butter or ghee<br>
+        A pinch of salt<br><br>
+        <b>Steps:</b><br><br>
+        <i>1. Prepare the Vermicelli:</i><br>
+        Heat the butter or ghee in a large pan over medium heat.<br>
+        Add the vermicelli noodles and toast them, stirring frequently, until they turn golden brown.<br>
+        Add 1 cup of water and let the noodles cook until softened and the water is absorbed.<br>
+        Stir in sugar, cardamom, and the saffron water. Mix well and cook for another 2–3 minutes until the sugar dissolves and flavors blend.<br>
+        <i>2. Prepare the Egg Topping:</i><br>
+        In a separate pan, melt butter or ghee over medium heat.<br>
+        Beat the eggs with a pinch of salt and pour them into the pan.<br>
+        Cook the eggs into a thin omelet, flipping once, and then slice into strips or serve whole.<br>
+        <i>3. Assemble the Balaleet:</i><br>
+        Transfer the sweet vermicelli to a serving dish and top with the prepared egg.<br>
+        <i>4. Serve:</i><br>
+        Serve warm as a breakfast dish or dessert, optionally garnished with nuts or raisins.<br>
+    </p>
+    <section id="feedback-rating">
+
+        <h2>Give us your feedback on the dish</h2>
+      
+        <form action="submit_feedback.php" method="post">
+
+          <label for="rating">Rate the recipe!</label><br>
+      
+          <input type="radio" id="rating-excellent" name="rating" value="excellent" required> Excellent<br>
+      
+          <input type="radio" id="rating-good" name="rating" value="good"> Good<br>
+      
+          <input type="radio" id="rating-average" name="rating" value="average"> Average<br>
+      
+          <input type="radio" id="rating-poor" name="rating" value="poor"> Poor<br><br>
+      
+      
+      
+          <label for="comment">Anything else you would like us to know?</label><br>
+      
+          <textarea id="comment" name="comment" rows="10" cols="40"></textarea><br><br>
+      
+      
+      
+          <input type="submit" value="Submit Feedback">
+      
+        </form>
+      
+      </section>
+</body>
+</html>

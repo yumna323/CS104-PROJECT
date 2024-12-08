@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labneh</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Halal Hub</h1>
+        <p1>Cook what you have.</p1>
+      </div>
+      
+    <div class="navbar"> 
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="breakfast.html">Breakfast</a></li> 
+        <li><a href="lunch.html">Lunch</a></li>
+        <li><a href="dinner.html">Dinner</a></li>
+        <input type="text" placeholder="Find a Recipe">
+    </div> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0VMEC3lsjrg?si=Eh6_VIH6Fd87iEHS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <p><b>Ingredients:</b><br><br>
+        2 cups full-fat plain yogurt<br>
+        ½ teaspoon salt<br>
+        <i>Optional Garnishes:</i><br>
+        Olive oil<br>
+        Dried mint<br>
+        Sumac<br>
+        Za'atar<br>
+        Chopped fresh herbs<br><br>
+        <b>Steps:</b><br><br>
+        <i>1. Prepare the Yogurt:</i><br>
+        In a bowl, mix the yogurt with salt until well combined.<br>
+        <i>2. Strain the Yogurt:</i><br>
+        Line a fine-mesh strainer with cheesecloth or a clean kitchen towel.<br>
+        Place the strainer over a bowl and pour the salted yogurt into it.<br>
+        Gather the edges of the cloth and tie them into a bundle.<br>
+        <i>3. Drain the Liquid:</i><br>
+        Place the yogurt in the refrigerator and allow it to drain for 12–24 hours, depending on your desired thickness.<br>
+        Check occasionally and discard the liquid (whey) that collects in the bowl.<br>
+        <i>4. Transfer and Serve:</i><br>
+        Once the yogurt has thickened into labneh, transfer it to a serving dish.<br>
+        Drizzle with olive oil and garnish with your choice of herbs or spices.<br>
+        <i>5. Enjoy:</i><br>
+        Serve with fresh bread, vegetables, or as part of a mezze platter.<br>
+    </p>
+    <section id="feedback-rating">
+
+        <h2>Give us your feedback on the dish</h2>
+      
+        <form action="submit_feedback.php" method="post">
+
+          <label for="rating">Rate the recipe!</label><br>
+      
+          <input type="radio" id="rating-excellent" name="rating" value="excellent" required> Excellent<br>
+      
+          <input type="radio" id="rating-good" name="rating" value="good"> Good<br>
+      
+          <input type="radio" id="rating-average" name="rating" value="average"> Average<br>
+      
+          <input type="radio" id="rating-poor" name="rating" value="poor"> Poor<br><br>
+      
+      
+      
+          <label for="comment">Anything else you would like us to know?</label><br>
+      
+          <textarea id="comment" name="comment" rows="10" cols="40"></textarea><br><br>
+      
+      
+      
+          <input type="submit" value="Submit Feedback">
+      
+        </form>
+      
+      </section> 
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushat</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Halal Hub</h1>
+        <p1>Cook what you have.</p1>
+      </div>
+      
+    <div class="navbar"> 
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="breakfast.html">Breakfast</a></li> 
+        <li><a href="lunch.html">Lunch</a></li>
+        <li><a href="dinner.html">Dinner</a></li>
+        <input type="text" placeholder="Find a Recipe">
+    </div> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LLVhPWyIEac?si=419E4_TuL-6Th9tP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <p><b>Ingredients:</b><br><br>
+        2 medium eggplants, peeled and cut into cubes<br>
+        1 large onion, chopped<br>
+        2 garlic cloves, minced<br>
+        3 medium tomatoes, diced<br>
+        1 cup cooked chickpeas<br>
+        2 tablespoons olive oil<br>
+        ½ teaspoon ground cumin<br>
+        ½ teaspoon paprika<br>
+        Salt and pepper to taste<br>
+        Chopped parsley for garnish<br><br>
+        <b>Steps:</b><br><br>
+        <i>1. Prepare the Eggplant:</i><br>
+        Sprinkle the eggplant cubes with salt and let them sit in a colander for 20 minutes to draw out moisture.<br>
+        Rinse and pat dry with a kitchen towel.<br>
+        <i>2. Sauté the Vegetables:</i><br>
+        Heat olive oil in a large skillet over medium heat. Add the onion and garlic and sauté until softened.<br>
+        Add the eggplant and cook until it softens and starts to brown, about 10 minutes.<br>
+        <i>3. Add Tomatoes and Spices:</i><br>
+        Stir in the diced tomatoes, cumin, paprika, salt, and pepper. Cook for 5–7 minutes until the tomatoes break down.<br>
+        <i>4. Add Chickpeas:</i><br>
+        Stir in the cooked chickpeas and cook for another 5 minutes, allowing the flavors to meld.<br>
+        <i>5. Garnish and Serve:</i><br>
+        Transfer to a serving dish, garnish with chopped parsley, and serve warm with bread or rice.<br>
+    </p>
+    <section id="feedback-rating">
+
+        <h2>Give us your feedback on the dish</h2>
+      
+        <form action="submit_feedback.php" method="post">
+
+          <label for="rating">Rate the recipe!</label><br>
+      
+          <input type="radio" id="rating-excellent" name="rating" value="excellent" required> Excellent<br>
+      
+          <input type="radio" id="rating-good" name="rating" value="good"> Good<br>
+      
+          <input type="radio" id="rating-average" name="rating" value="average"> Average<br>
+      
+          <input type="radio" id="rating-poor" name="rating" value="poor"> Poor<br><br>
+      
+      
+      
+          <label for="comment">Anything else you would like us to know?</label><br>
+      
+          <textarea id="comment" name="comment" rows="10" cols="40"></textarea><br><br>
+      
+      
+      
+          <input type="submit" value="Submit Feedback">
+      
+        </form>
+      
+      </section>
+</body>
+</html>

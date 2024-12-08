@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hummus</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Halal Hub</h1>
+        <p1>Cook what you have.</p1>
+      </div>
+      
+    <div class="navbar"> 
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="breakfast.html">Breakfast</a></li> 
+        <li><a href="lunch.html">Lunch</a></li>
+        <li><a href="dinner.html">Dinner</a></li>
+        <input type="text" placeholder="Find a Recipe">
+    </div> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PvYv3y7TYtI?si=ttm6lrffUE6cSp3a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <p><b>Ingredients:</b><br><br>
+        1 ½ cups cooked or canned chickpeas (drained and rinsed)<br>
+        ¼ cup tahini (sesame paste)<br>
+        2 tablespoons olive oil<br>
+        2 tablespoons fresh lemon juice<br>
+        1 garlic clove, minced<br>
+        ½ teaspoon ground cumin<br>
+        2–3 tablespoons water (adjust for desired consistency)<br>
+        Salt to taste<br>
+        <i>Optional Garnishes:</i><br>
+        Paprika<br>
+        Extra olive oil<br>
+        Chopped parsley<br><br>
+        <b>Steps:</b><br><br>
+        <i>1. Blend the Ingredients:</i><br>
+        In a food processor, combine chickpeas, tahini, olive oil, lemon juice, garlic, cumin, and salt.<br>
+        Blend until smooth, scraping down the sides as needed.<br>
+        <i>2. Adjust Consistency:</i><br>
+        Add water, one tablespoon at a time, and blend until the hummus reaches your desired consistency.<br>
+        <i>3. Plate the Hummus:</i><br>
+        Transfer the hummus to a serving bowl and use the back of a spoon to create a swirl on the surface.<br>
+        <i>4. Garnish:</i><br>
+        Drizzle with olive oil and sprinkle with paprika or chopped parsley.<br>
+        <i>5. Serve:</i><br>
+        Serve chilled or at room temperature with pita bread, vegetables, or crackers.<br>
+    </p>
+    <section id="feedback-rating">
+
+        <h2>Give us your feedback on the dish</h2>
+      
+        <form action="submit_feedback.php" method="post">
+
+          <label for="rating">Rate the recipe!</label><br>
+      
+          <input type="radio" id="rating-excellent" name="rating" value="excellent" required> Excellent<br>
+      
+          <input type="radio" id="rating-good" name="rating" value="good"> Good<br>
+      
+          <input type="radio" id="rating-average" name="rating" value="average"> Average<br>
+      
+          <input type="radio" id="rating-poor" name="rating" value="poor"> Poor<br><br>
+      
+      
+      
+          <label for="comment">Anything else you would like us to know?</label><br>
+      
+          <textarea id="comment" name="comment" rows="10" cols="40"></textarea><br><br>
+      
+      
+      
+          <input type="submit" value="Submit Feedback">
+      
+        </form>
+      
+      </section>
+</body>
+</html>
