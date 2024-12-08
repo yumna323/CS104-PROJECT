@@ -18,21 +18,24 @@
                 <li><a href="breakfast.html">Breakfast</a></li> 
                 <li><a href="lunch.html">Lunch</a></li>
                 <li><a href="dinner.html">Dinner</a></li>
-                <input type="text" placeholder="Find a Recipe">
+                <form onsubmit="event.preventDefault(); performSearch();">
+                    <input type="text" id="searchInput" placeholder="Search..." required>
+                    <button type="submit">Search</button>
+                </form>
             </div> 
             <div class="content"> 
                 <div class="featured"> 
-                    <img src="shakshuka.webp" alt="Shakshuka"> 
+                    <a href="shakshuka.html"><img src="shakshuka.webp" alt="Shakshuka"></a>
                     <h2>Shakshouka</h2> 
                 </div> 
                 <div class="trending"> 
                     <h2>Trending Now</h2> 
                     <div> 
-                        <img src="tabouleh.jpg" alt="Tabouleh"> 
+                       <a href="Tabouleh.html"> <img src="tabouleh.jpg" alt="Tabouleh"> </a>
                         <p>Tabouleh</p> 
                     </div> 
                     <div> 
-                        <img src="fulmeda.jpg" alt="Fulmedames"> 
+                        <a href="fulmedames.html"><img src="fulmeda.jpg" alt="Fulmedames"> </a>
                         <p>Ful Medames</p> 
                     </div> 
                 </div> 

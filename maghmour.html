@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="maghmour.css">
+    <link rel="stylesheet" href="recipe.css">
 </head>
 <body>
     <div class="header">
@@ -12,24 +12,17 @@
         <p1>Cook what you have.</p1>
       </div>
       
-    <header>
-        <nav>
-            <ul>
-                <li><a href="Homepage.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="breakfast.html">Breakfast</a></li> 
-                <li><a href="lunch.html">Lunch</a></li>
-                <li><a href="dinner.html">Dinner</a></li>
-                <li><input type="text" placeholder="Search"></li>
-                <li><button>Search</button></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div id="box1">
-    <h1> <br> Halal Hub </h1>
-    </div>
-<br><br>
+    <div class="navbar"> 
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="breakfast.html">Breakfast</a></li> 
+        <li><a href="lunch.html">Lunch</a></li>
+        <li><a href="dinner.html">Dinner</a></li>
+        <form onsubmit="event.preventDefault(); performSearch();">
+            <input type="text" id="searchInput" placeholder="Search..." required>
+            <button type="submit">Search</button>
+        </form>
+    </div> 
 
 <iframe width="1134" height="638" src="https://www.youtube.com/embed/BSykdtVvpyk?si=1-hlG0M8kA2-ZwCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br><br>
@@ -49,5 +42,34 @@ Ingredients
 <li>2 cans crushed tomatoes (2 400g cans)</li>
 <li>1 tbsp tomato paste</li>
 <br><br>
+<section id="feedback-rating">
+
+    <h2>Give us your feedback on the dish</h2>
+  
+    <form action="submit_feedback.php" method="post">
+
+      <label for="rating">Rate the recipe!</label><br>
+  
+      <input type="radio" id="rating-excellent" name="rating" value="excellent" required> Excellent<br>
+  
+      <input type="radio" id="rating-good" name="rating" value="good"> Good<br>
+  
+      <input type="radio" id="rating-average" name="rating" value="average"> Average<br>
+  
+      <input type="radio" id="rating-poor" name="rating" value="poor"> Poor<br><br>
+  
+  
+  
+      <label for="comment">Anything else you would like us to know?</label><br>
+  
+      <textarea id="comment" name="comment" rows="10" cols="40"></textarea><br><br>
+  
+  
+  
+      <input type="submit" value="Submit Feedback">
+  
+    </form>
+  
+  </section>
 </body>
 </html>

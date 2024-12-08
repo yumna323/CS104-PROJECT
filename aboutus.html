@@ -18,7 +18,10 @@
         <li><a href="breakfast.html">Breakfast</a></li> 
         <li><a href="lunch.html">Lunch</a></li>
         <li><a href="dinner.html">Dinner</a></li>
-        <input type="text" placeholder="Find a Recipe">
+        <form onsubmit="event.preventDefault(); performSearch();">
+          <input type="text" id="searchInput" placeholder="Search..." required>
+          <button type="submit">Search</button>
+      </form>
         
       </div>
     <div class="about">
@@ -32,7 +35,7 @@
     <div class="founders">
         <p> Yumna Ali: <br> Sudqia Kanan: <br> Rodes Safe: <br> Anna Benjamin:</p>
     </div>
-    
+
     <div class="contact">
             <a href="mailto: yt323@njit.edu">yt323@njit.edu</a><br>
             <a href="mailto: smk86@njit.edu">smk86@njit.edu</a><br>
